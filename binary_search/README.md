@@ -5,3 +5,4 @@
 
 - You may assume no duplicate exists in the array.
 - 以一个数字为pivot，旋转
+- 一定用binary search来做
