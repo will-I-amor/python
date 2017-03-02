@@ -2,4 +2,6 @@
 
 ####与其搜7的range，不如搜6和8的位置。
 - 两个function各return一个left，一个right。
-- 最后，如果left的值大于right，就是list里没有target这个数
+- 最后，如果left的值大于right，就是list里没有target这个数。
+
+>以后多反思几遍
