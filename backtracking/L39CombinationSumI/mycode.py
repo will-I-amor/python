@@ -9,6 +9,8 @@ def helper(nums,i,target,sol,G):
             if nums[j]<=target:
                 #sol.append(nums[j])
                 helper(nums,j,target-nums[j],sol+[nums[j]],G)
+                #NOTICE,we passed the sol+[nums[j]], in which we didn't CHANGE the sol list
+                #the A+[b],passed to a function, didnt change A itself
             if nums[j]>target:
                 break
 def combinationSum(nums,target):
