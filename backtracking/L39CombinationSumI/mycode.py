@@ -11,6 +11,8 @@ def helper(nums,i,target,sol,G):
                 helper(nums,j,target-nums[j],sol+[nums[j]],G)
                 #NOTICE,we passed the sol+[nums[j]], in which we didn't CHANGE the sol list
                 #the A+[b],passed to a function, didnt change A itself
+                #把helper(nums[j:],target-nums[j])这行，里的nums[j:]改成nums才能Accepted
+                #不知道为什么？？？？？？？
             if nums[j]>target:
                 break
 def combinationSum(nums,target):
