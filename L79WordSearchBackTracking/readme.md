@@ -15,5 +15,11 @@
 ###### word = "SEE", -> returns true,
 ###### word = "ABCB", -> returns false.
 
-之前报错list index越界，后来发现是board[row][col]里的row和col写反了。。后来又开始报结果错误，就是本应是True的算成False。
-原因是 helper函数里的return出现了问题，一定要 if ... or ..成立. or..成立. or.成立..这样，再return True。不能一个一个地return
+之前报错list index越界，后来发现是board[row][col]里的row和col写反了。。
+
+后来又开始报结果错误，就是本应是True的算成False。
+
+
+原因是 helper函数里的return出现了问题，
+
+    一定要 if ... or ..成立. or..成立. or.成立..这样，再return True。不能一个一个地return
