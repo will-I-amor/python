@@ -8,5 +8,7 @@
     
 此题属于binary search二分搜索
 
+选中nums[-1]最后一个item为target,来做比较
+
 
 ![](https://i.imgur.com/aKPKzXK.jpg)
